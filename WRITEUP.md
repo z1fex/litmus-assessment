@@ -228,7 +228,7 @@ In a production deployment I would add:
 
 - **Structured logging**: Replace `logging.basicConfig` with `structlog` or JSON-formatted output so that log aggregators (Datadog, Splunk) can parse fields like `firm_id`, `score`, `route`, and `webhook_status` without regex.
 
-- **Run summary**: Emit a structured summary event at pipeline completion (like the `STATS.json` written by `run_stats.py`) to a monitoring dashboard, so operators know the health of each run without reading raw logs.
+- **Run summary**: Emit a structured summary event at pipeline completion — total firms processed, duplicates skipped, webhook success/failure counts — to a monitoring dashboard, so operators know the health of each run without reading raw logs.
 
 ---
 
