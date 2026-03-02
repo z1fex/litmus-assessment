@@ -1,0 +1,21 @@
+{
+  "pages_fetched": 6,
+  "firms_fetched_total": 55,
+  "duplicates_skipped": 5,
+  "enrichment_failures": 0,
+  "firms_scored": 50,
+  "routes": {
+    "high_priority": 35,
+    "nurture": 11,
+    "disqualified": 4
+  },
+  "errors": [],
+  "webhooks": {
+    "crm_fired": 35,
+    "crm_succeeded": 35,
+    "crm_failed": 0,
+    "email_fired": 46,
+    "email_succeeded": 46,
+    "email_failed": 0
+  }
+}
